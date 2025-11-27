@@ -8,10 +8,10 @@ It uses Machine Learning models such as:
 The dataset used is:
         Loan Prediction Dataset - RAW.csv
 
-📂 Project Structure
 ├── Loan Approval Prediction Proj.py     # Main project code
 ├── Loan Prediction Dataset - RAW.csv     # Training dataset
 └── README.md
+
 
 📊 Dataset Description
 
