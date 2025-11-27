@@ -1,17 +1,12 @@
 📌 Project Overview
-
 This project predicts whether a loan application will be approved (Y) or rejected (N) based on applicant financial and demographic information.
 It uses Machine Learning models such as:
-
-Logistic Regression
-
-Support Vector Machine (SVM)
-
-Random Forest Classifier
+-Logistic Regression
+-Support Vector Machine (SVM)
+-Random Forest Classifier
 
 The dataset used is:
-
-Loan Prediction Dataset - RAW.csv
+        Loan Prediction Dataset - RAW.csv
 
 📂 Project Structure
 ├── Loan Approval Prediction Proj.py     # Main project code
@@ -20,20 +15,21 @@ Loan Prediction Dataset - RAW.csv
 
 📊 Dataset Description
 
-The dataset contains applicant information:
+| Feature           | Description                 |
+| ----------------- | --------------------------- |
+| ApplicantIncome   | Monthly income of applicant |
+| CoapplicantIncome | Income of co-applicant      |
+| LoanAmount        | Amount of loan              |
+| Loan_Amount_Term  | Loan term (months)          |
+| Credit_History    | 1 = Good, 0 = Bad           |
+| Gender            | Male/Female                 |
+| Married           | Yes/No                      |
+| Education         | Graduate/Not Graduate       |
+| Self_Employed     | Yes/No                      |
+| Property_Area     | Urban/Semiurban/Rural       |
+| Loan_Status       | **Target variable (Y/N)**   |
 
-Feature	Description
-ApplicantIncome	Monthly income of applicant
-CoapplicantIncome	Income of co-applicant
-LoanAmount	Amount of loan
-Loan_Amount_Term	Loan term (months)
-Credit_History	1 = Good, 0 = Bad
-Gender	Male/Female
-Married	Yes/No
-Education	Graduate/Not Graduate
-Self_Employed	Yes/No
-Property_Area	Urban/Semiurban/Rural
-Loan_Status	Target variable (Y/N)
+
 🧪 Steps Performed in the Code
 ✔ 1. Load Dataset
 
